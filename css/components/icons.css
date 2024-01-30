@@ -1,15 +1,18 @@
+/* Styling for star icon */
 .fa-star {
-    color: hsl(47, 100%, 62%);
-    
-}
-
-.fa-heart {
-    color: red;
+    color: #ffd43b;
     font-size: 1.5em;
-    
+    padding-top: 10px;
 }
 
+/* Styling for heart icon */
+.fa-heart {
+    color: #ff2600;
+    font-size: 1.5em;
+}
+
+/* Hover effect for the heart icon */
 .fa-heart:hover {
-    color: rgb(122, 3, 3);
+    color: rgb(150, 0, 0);
     transition: 0.5s ease;
 }

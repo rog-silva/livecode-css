@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Meta tags for character set and viewport -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
     <title>Livecode S&C</title>
+    <!-- Link to external stylesheet for styling, here we import our SCC -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Main container for the content -->
     <div class="container">
+      <!-- Card container -->
       <div class="card">
+        <!-- Top section of the card containing product information -->
         <div class="card-top">
-          <img src="images/oil.jpeg" alt="Olive oil" />
+          <!-- 1st element in our horizontal flex - Image of the product -->
+          <img src="images/oil.jpeg" alt="Massage oil picture" />
+          <!-- 2nd element in our horizontal flex - Product rating and information  -->
           <div class="product-info">
+            <!-- 1st element in our vertical flex - Star ratings using FontAwesome icons -->
             <div>
               <i class="fa-sharp fa-solid fa-star"></i>
               <i class="fa-sharp fa-solid fa-star"></i>
@@ -19,6 +28,7 @@
               <i class="fa-sharp fa-solid fa-star"></i>
               <i class="fa-sharp fa-regular fa-star"></i>
             </div>
+            <!-- Product title (2nd element), price (3rd element), and description (4th element in our vertical flex) -->
             <p class="card-title">Sweet Orange Oil</p>
             <p>€ 19.90</p>
             <p class="card-description">
@@ -26,17 +36,21 @@
               and care, this exquisite oil is a harmonious blend of natural
               ingredients designed to pamper your senses and nourish your skin.
             </p>
+            <!-- 5th element in our vertical flex - Buttons for adding to cart and liking the product -->
             <div class="double-button">
+              <!-- 1st element in our horizontal flex - Add to cart button -->
               <a href="#" class="green-button">
                 <i class="fa-solid fa-cart-shopping"></i> Add to cart</a
               >
-              <!-- TODO: Add to cart buttom -->
-              <!-- TODO: Add like buttom -->
+              <!-- 2nd element in our horizontal flex - Like button (Heart icon) -->
               <a href="#" class="like-btn"><i class="fa-solid fa-heart"></i></a>
             </div>
           </div>
         </div>
+
+        <!-- Middle section of the card containing an embedded video -->
         <div class="card-middle">
+          <!-- Responsive video iframe using Vimeo embed code -->
           <div style="padding: 56.25% 0 0 0; position: relative">
             <iframe
               src="https://player.vimeo.com/video/617105710?h=3d5c4433e7&color=ffffff&title=0&byline=0&portrait=0"
@@ -54,12 +68,13 @@
             ></iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
-          <!-- TODO: Add the Video/image, for this occasion I would recommend vimeo, because it's more embed-friendly  -->
         </div>
+
+        <!-- Bottom section of the card containing additional product images -->
         <div class="card-bottom">
-          <img src="images/oil_1.jpeg" alt="Coocking Oil" />
-          <img src="images/oil_2.jpg" alt="Coocking Oil" />
-          <img src="images/oil_3.jpg" alt="Coocking Oil" />
+          <img src="images/oil_1.jpeg" alt="Massage oil picture 1" />
+          <img src="images/oil_2.jpg" alt="Massage oil picture 2" />
+          <img src="images/oil_3.jpg" alt="Massage oil picture 3" />
         </div>
       </div>
     </div>

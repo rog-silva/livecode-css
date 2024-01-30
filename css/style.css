@@ -1,19 +1,21 @@
+/* Import Fonts from "Google fonts" and icons from "fontawesome"  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500&family=Roboto:wght@400;700&display=swap');
 @import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
 
+/* Components */
+/* @import url("components/name_of_component.css"); */
 @import url("components/cards.css");
 @import url("components/icons.css");
 @import url("components/buttons.css"); 
     
-
+/* Body styling */
 body {
     font-family: "roboto", sans-serif;
     margin-bottom: 100px;
     background-color: aliceblue;
-    margin: 0;
 }
 
-
+/* Container styling */
 .container {
     max-width: 900px;
     width: 100%;
