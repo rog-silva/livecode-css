@@ -1,0 +1,15 @@
+.fa-star {
+    color: hsl(47, 100%, 62%);
+    
+}
+
+.fa-heart {
+    color: red;
+    font-size: 1.5em;
+    
+}
+
+.fa-heart:hover {
+    color: rgb(122, 3, 3);
+    transition: 0.5s ease;
+}

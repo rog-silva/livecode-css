@@ -1,0 +1,17 @@
+.green-button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(0, 126, 0, 0.5);
+    color: aliceblue;
+    text-decoration: none;
+}
+.green-button:hover{
+    color: white;
+    transition: 0.5s ease;
+    background-color: rgb(211, 228, 211);
+
+}
+
+.like-btn {
+    align-self: center;
+}

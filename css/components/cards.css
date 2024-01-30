@@ -1,0 +1,66 @@
+.card {
+    background-color: rgb(217, 224, 231);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #1b0c0c1a;
+}
+
+.card-top {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    gap: 1em;
+    padding: 1em;
+}
+
+.card-top img {
+    width: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-family: "roboto Serif", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-description {
+    text-align: justify;
+    font-size: 14px;
+    color: #333333;
+}
+
+.double-button {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.card-middle {
+    margin: 1em 0;
+}
+
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom img {
+    width: 32%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-bottom img:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
